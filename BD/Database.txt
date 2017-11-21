@@ -2,7 +2,7 @@ CREATE TABLE aula
 (
 	IdAula               CHAR(4) NOT NULL,
 	edificio             CHAR(1) NULL,
-	capacidad            INTEGER NULL,mmmmm
+	capacidad            INTmnmnmnmnmnmnEGER NULL,mmmmm
 	estado               BINARY NULL,
 	IdTipo               INTEGER NULL
 );

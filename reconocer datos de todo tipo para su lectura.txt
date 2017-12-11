@@ -1,0 +1,29 @@
+switch(celda.getCellType()) {
+
+        case Cell.CELL_TYPE_NUMERIC:
+
+            if( DateUtil.isCellDateFormatted(celda) ){
+
+               System.out.println(celda.getDateCellValue());
+
+            }else{
+
+               System.out.println(celda.getNumericCellValue());
+
+            }
+
+            break;
+
+        case Cell.CELL_TYPE_STRING:
+
+            System.out.println(celda.getStringCellValue());
+
+            break;
+
+        case Cell.CELL_TYPE_BOOLEAN:
+
+            System.out.println(celda.getBooleanCellValue());
+
+            break;
+
+        }
